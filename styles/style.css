@@ -1,18 +1,71 @@
 /* "Fira sans" font import from font-google.com */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Fira Sans", serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", serif;
 }
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  background: #f5f5f5;
 }
-a, a:hover{
-    text-decoration: none;
+img {
+    vertical-align: middle;
+    display: flex;
 }
-ul, ol, li {
-    list-style: none;
+a,
+a:hover {
+  text-decoration: none;
 }
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* Shared styles start from here */
+.container {
+  max-width: 1200px;
+  width: 75%;
+  margin: 0 auto;
+}
+.btn-big {
+  border-radius: 8px;
+  background: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 16px 32px;
+  transition: all linear 0.3s;
+  border: none;
+}
+.btn-big:hover {
+    background: #FFC239;
+}
+/* Shared styles end here */
+
+/* Banner part style start from here */
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+}
+.banner-content .sub-heading {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.banner-content .hero-title {
+  color: #0e0e0e;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+/* Banner part style end here */
