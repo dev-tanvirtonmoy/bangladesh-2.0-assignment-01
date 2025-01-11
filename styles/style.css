@@ -75,6 +75,35 @@ p {
 }
 /* Shared styles end here */
 
+/* Navbar part styles start from here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+nav .logo {
+  color: #0e0e0e;
+  font-size: 32px;
+  font-weight: 700;
+}
+nav button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  transition: all linear 0.3s;
+}
+nav button:hover {
+  background: #006a50;
+  color: #fff;
+}
+/* Navbar part styles end here */
+
 /* Banner part style start from here */
 #banner {
   display: flex;
@@ -204,6 +233,10 @@ p {
   padding: 48px;
   border-radius: 24px;
   background: #fff;
+  transition: all linear 0.3s;
+}
+.news-card:hover {
+  box-shadow: 10px 10px 10px #00000030;
 }
 .news-card-container .news-card:nth-child(2) {
   flex-direction: row-reverse;
