@@ -318,6 +318,7 @@ p {
   border-radius: 24px;
   background: #c6e4d6;
   text-align: center;
+  margin-bottom: 80px;
 }
 #newsletter h3 {
   color: #0e0e0e;
@@ -371,3 +372,27 @@ p {
   font-weight: 400;
 }
 /* Newsletter section styles end here */
+
+/* Footer section styles start from here */
+footer {
+  padding: 50px 0;
+  background: #fff;
+  text-align: center;
+}
+footer span {
+  display: block;
+  margin: 0 auto;
+  width: 1120px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+  padding-bottom: 32px;
+  color: #0e0e0e;
+  font-size: 32px;
+  font-weight: 700;
+}
+footer .footer-links {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+/* Footer section styles end here */
