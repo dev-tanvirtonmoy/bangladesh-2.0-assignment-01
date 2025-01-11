@@ -117,6 +117,10 @@ p {
   border: 0px solid #5490f5;
   background: rgba(84, 144, 245, 0.2);
   flex: 1;
+  transition: all linear 0.3s;
+  &:hover {
+    box-shadow: 10px 10px 10px #00000020;
+  }
 }
 .vision-card-container .vision-card:nth-child(2) {
   border-radius: 16px;
@@ -152,7 +156,6 @@ p {
   padding: 48px 24px;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
-  /* background: #000; */
   background: url(../assets/quote-bg.png), #fff;
   background-repeat: no-repeat;
   background-position: 24px 20px;
@@ -188,7 +191,6 @@ p {
   height: 306px;
 }
 .news-card > figure > img {
-  /* object-fit: cover; */
   border-radius: 24px;
   height: 100%;
 }
@@ -239,6 +241,10 @@ p {
   border: none;
   cursor: pointer;
   text-transform: capitalize;
+  transition: all linear 0.3s;
+}
+.news-card-con button:hover {
+  background: #ffc239;
 }
 
 /* Recent News section end here */
@@ -302,6 +308,66 @@ p {
   font-weight: 400;
 }
 #donate form btn {
-
+  border: 1px solid rgba(14, 14, 14, 0.1);
 }
 /* Donate Today section styles end here */
+
+/* Newsletter section styles start from here */
+#newsletter {
+  padding: 80px;
+  border-radius: 24px;
+  background: #c6e4d6;
+  text-align: center;
+}
+#newsletter h3 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#newsletter p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 622px;
+  margin: 0 auto;
+}
+#newsletter form {
+  display: flex;
+  width: 750px;
+  margin: 24px auto;
+}
+#newsletter form input {
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+  border: none;
+  outline: 0;
+  max-width: 100%;
+  flex-grow: 1;
+}
+#newsletter form input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+}
+#newsletter form button {
+  padding: 0 24px;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  transition: all linear 0.3s;
+}
+#newsletter form button:hover {
+  background: grey;
+}
+#newsletter span {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Newsletter section styles end here */
