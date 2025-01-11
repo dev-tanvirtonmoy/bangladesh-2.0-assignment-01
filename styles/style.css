@@ -187,7 +187,7 @@ p {
   width: 408px;
   height: 306px;
 }
-.news-card > figure > img{
+.news-card > figure > img {
   /* object-fit: cover; */
   border-radius: 24px;
   height: 100%;
@@ -236,6 +236,72 @@ p {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 /* Recent News section end here */
+
+/* Donate Today section styles start from here */
+#donate {
+  text-align: center;
+  margin: 80px 0;
+}
+#donate .section-heading p {
+  margin: 24px auto 0;
+  width: 1104px;
+}
+.money-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 32px 0;
+}
+.money-card-container .money-card {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  transition: all linear 0.3s;
+}
+.money-card-container .money-card:hover {
+  background: #c6e4d6;
+}
+.money-card-container .money-card:nth-child(2) {
+  background: #c6e4d6;
+  &:hover {
+    background: #fff;
+  }
+}
+.money-card p {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+}
+#donate form {
+  width: 1032px;
+  margin: 0 auto;
+}
+#donate form input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: 0;
+  /* border: none; */
+  margin-bottom: 24px;
+}
+#donate form input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+}
+#donate form btn {
+
+}
+/* Donate Today section styles end here */
